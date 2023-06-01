@@ -4,44 +4,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/png" href="/assets/Agency-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=Quicksand:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Creativa</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Agency Creative</title>
   </head>
   <body>
-    <h1>Agencia Creativa</h1>
+    <h1>Agency Creative</h1>
     <header class="container">
+      <a href="#">
+        <img
+          src="./assets/Agency-logo.png"
+          alt="Agency Creative Logo"
+          class="logo"
+        />
+      </a>
+
       <nav>
-        <a href="#" class="logo"> <span>Crea</span>tiva. </a>
         <ul class="link-section">
-          <li><a href="#" class="link">Inicio</a></li>
-          <li><a href="#" class="link">Portafolio</a></li>
-          <li><a href="#" class="link">Servicios</a></li>
-          <li><a href="#" class="contact-link">Contacto</a></li>
+          <li><a href="#" class="link">Home</a></li>
+          <li><a href="#about" class="link">About</a></li>
+          <li><a href="#services" class="link">Services</a></li>
+          <li><a href="#" class="link">Projects</a></li>
         </ul>
       </nav>
+
+      <button class="menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
     </header>
 
-    <main class="container hero-section">
-      <div class="hero-content">
-        <h2>Cada diseño comienza con una historia</h2>
-        <p>
-          Brindamos diversos servicios para que su negocio crezca y se haga más
-          grande. Su satisfacción es nuestra primera prioridad.Nuestro equipo de
-          expertos está comprometido en brindarle soluciones personalizadas que
-          <!-- se adapten a sus necesidades específicas. Nos esforzamos por
-          mantenernos a la vanguardia de las últimas tendencias y tecnologías
-          para asegurar el éxito continuo de su negocio. Con nuestro enfoque
-          orientado al cliente, trabajamos en estrecha colaboración con usted
-          para alcanzar sus metas y superar sus expectativas. -->
-        </p>
-      </div>
-      <img src="./assets/hero.png" alt="" />
+    <main class="container hero">
+      <h2>Make your dream business goal come true</h2>
+      <p>
+        when you need us for improve your business, then come with us to help
+        your business have reach it, you just sit and feel that goal
+      </p>
+      <a href="#">Start Project</a>
+      <img src="./assets/hero.png" alt="Hero Image" />
     </main>
+
+    <section class="container about" id="about">
+      <h3>About us</h3>
+      <span>Our Teammate</span>
+
+      <article class="about-content">
+        <img src="./assets/about.png" alt="Our Teammate Image" />
+        <div class="about-info">
+          <p>
+            We move with make a Creative Strategy for help your business goal,
+            we help to improve your income by a services we have. make your
+            content look interesting and make people look for your business
+          </p>
+          <br />
+          <p>
+            We move with make a Creative Strategy for help your business goal,
+            we help to improve your income by a services we have. make your
+            content look interesting and make people look for your business
+          </p>
+          <div class="link-about-section">
+            <a href="#">About us</a>
+            <a href="#">Our Story</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="container services" id="services">
+      <div class="services-content">
+        <h3>Our Services</h3>
+        <span>Perfect and Fast Movement</span>
+        <p>
+          We move with make a Creative Strategy for help your business goal, we
+          help to improve your income by a services we have. make your content
+          look interesting and make people look for your business
+        </p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="services-card">
+        <div class="card">
+          <img src="./assets/desktop.png" alt="desktop icon" />
+          <p>Social Media Management</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/source.png" alt="source icon" />
+          <p>Search Engine Opimization</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/design.png" alt="design icon" />
+          <p>Design</p>
+        </div>
+
+        <div class="card">
+          <img src="./assets/ads.png" alt="ads icon" />
+          <p>Ads</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container portafolio" id="portafolio">
+      <h3>Our Portfolio</h3>
+      <span>What do we do</span>
+      <br /><br />
+      <p>
+        all projects that we have already done , proven can help to use more
+      </p>
+      <p>comfortable, then can used by client from our business</p>
+
+      <div class="gallery">
+        <div class="picture">
+          <img src="./assets/design-portafolio.png" alt="Design Mobile Image" />
+          <p>Design Byte App</p>
+        </div>
+
+        <div class="picture">
+          <img src="./assets/cloud-portafolio.png" alt="Cloud  Image" />
+          <p>Cloud App</p>
+        </div>
+
+        <div class="picture">
+          <img
+            src="./assets/furniture-portafolio.png"
+            alt="Design Mobile Furniture App Image"
+          />
+          <p>Design Furniture App</p>
+        </div>
+      </div>
+
+      <a href="#">See all Portafolio</a>
+    </section>
+
+    <script src="index.js"></script>
   </body>
 </html>

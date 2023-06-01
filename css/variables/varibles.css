@@ -1,0 +1,14 @@
+:root {
+  --white: #fff;
+  --black: #1d1d1d;
+  --gray: #464646;
+  --blue: #377dff;
+  --radius: 25px;
+  --transition: 0.3s;
+  --transition-slow: 0.7s;
+  --space-xl: 50px;
+  --space-2xl: 100px;
+  --space-3xl: 130px;
+  --p-button: 14px 45px;
+  --shadow: 0 8px 15px rgb(55, 125, 255, 0.4);
+}

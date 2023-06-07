@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-block: var(--space-2xl);
+}
+
+.hero > .title {
+  padding-bottom: 24px;
+}
+
+.hero p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: var(--font-md);
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.hero p:nth-child(3) {
+  padding-bottom: 32px;
+}
+
+.hero img {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 890px;
+}

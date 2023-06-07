@@ -7,18 +7,18 @@ header {
 }
 
 .logo {
-  max-width: 140px;
+  width: 140px;
 }
 
-.link-section {
+.nav-link-section {
   display: flex;
   align-items: center;
   gap: 80px;
   color: var(--black);
+  font-size: var(--font-sm);
 }
 
-.link {
-  font-size: 18px;
+.nav-link {
   padding-bottom: 4px;
 }
 
@@ -63,7 +63,7 @@ header {
     display: flex;
   }
 
-  .link-section {
+  .nav-link-section {
     position: fixed;
     top: -150%;
     left: 50%;
@@ -80,7 +80,7 @@ header {
     transition: var(--transition-slow);
   }
 
-  .link-section.active {
+  .nav-link-section.active {
     top: 15%;
     opacity: 1;
   }

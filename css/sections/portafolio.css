@@ -1,41 +1,16 @@
-/* font-family: "Quicksand", sans-serif; */
-
-/* font-family: "Nunito Sans", sans-serif; */
-
 .portafolio {
   margin-block: var(--space-3xl);
   text-align: center;
 }
 
-.portafolio h3 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  font-style: 24px;
-  color: var(--blue);
-  margin-bottom: 15px;
-}
 
-.portafolio span {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 55px;
-  font-weight: 800;
-  padding-bottom: 300px;
-}
 
+.portafolio figcaption,
 .portafolio p {
   font-family: "Quicksand", sans-serif;
-  font-size: 18px;
   color: var(--gray);
+  font-size: var(--font-md);
   margin-bottom: 8px;
-}
-
-.portafolio a {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-  color: var(--blue);
-  border-radius: var(--radius);
-  border: 1px solid var(--blue);
-  padding: var(--p-button);
 }
 
 .gallery {
@@ -62,7 +37,7 @@
   filter: brightness(70%);
 }
 
-.picture p {
+.picture figcaption {
   position: absolute;
   color: var(--white);
   font-weight: bold;

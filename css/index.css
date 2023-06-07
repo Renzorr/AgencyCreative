@@ -1,8 +1,16 @@
-@import "./reset/reset.css";
 @import "./variables/varibles.css";
-@import "./layout/layout.css";
-@import "./components/header.css";
-@import "./components/hero.css";
-@import "./components/about.css";
-@import "./components/services.css";
-@import "./components/portafolio.css";
+
+@import "./reset/reset.css";
+
+@import "./layout/container-layout.css";
+
+@import "./components/link.css";
+@import "./components/titles.css";
+
+@import "./sections/header.css";
+@import "./sections/hero.css";
+@import "./sections/about.css";
+@import "./sections/services.css";
+@import "./sections/portafolio.css";
+@import "./sections/testimonial.css";
+@import "./sections/footer.css";

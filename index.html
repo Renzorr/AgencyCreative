@@ -26,15 +26,15 @@
       </a>
 
       <nav>
-        <ul class="link-section">
-          <li><a href="#" class="link">Home</a></li>
-          <li><a href="#about" class="link">About</a></li>
-          <li><a href="#services" class="link">Services</a></li>
-          <li><a href="#" class="link">Projects</a></li>
+        <ul class="nav-link-section">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portafolio">Projects</a></li>
         </ul>
       </nav>
 
-      <button class="menu">
+      <button class="menu" aria-label="hamburger menu">
         <div></div>
         <div></div>
         <div></div>
@@ -42,18 +42,23 @@
     </header>
 
     <main class="container hero">
-      <h2>Make your dream business goal come true</h2>
+      <div class="title">
+        <h2 class="main-title">Make your dream</h2>
+        <h2 class="main-title">business goal come true</h2>
+      </div>
+
+      <p>when you need us for improve your business,</p>
       <p>
-        when you need us for improve your business, then come with us to help
-        your business have reach it, you just sit and feel that goal
+        then come with us to help your business have reach it, you just sit and
+        feel that goal
       </p>
-      <a href="#">Start Project</a>
+      <a href="#" class="link hv-shadow">Start Project</a>
       <img src="./assets/hero.png" alt="Hero Image" />
     </main>
 
     <section class="container about" id="about">
-      <h3>About us</h3>
-      <span>Our Teammate</span>
+      <h3 class="s-title">About us</h3>
+      <span class="title">Our Teammate</span>
 
       <article class="about-content">
         <img src="./assets/about.png" alt="Our Teammate Image" />
@@ -70,8 +75,8 @@
             content look interesting and make people look for your business
           </p>
           <div class="link-about-section">
-            <a href="#">About us</a>
-            <a href="#">Our Story</a>
+            <a href="#" class="link hv-shadow">About us</a>
+            <a href="#" class="link hv-blue">Our Story</a>
           </div>
         </div>
       </article>
@@ -79,17 +84,17 @@
 
     <section class="container services" id="services">
       <div class="services-content">
-        <h3>Our Services</h3>
-        <span>Perfect and Fast Movement</span>
+        <h3 class="s-title">Our Services</h3>
+        <span class="title">Perfect and Fast Movement</span>
         <p>
           We move with make a Creative Strategy for help your business goal, we
           help to improve your income by a services we have. make your content
           look interesting and make people look for your business
         </p>
-        <a href="#">Read more</a>
+        <a href="#" class="link hv-shadow">Read more</a>
       </div>
 
-      <div class="services-card">
+      <div class="services-card-container">
         <div class="card">
           <img src="./assets/desktop.png" alt="desktop icon" />
           <p>Social Media Management</p>
@@ -113,8 +118,8 @@
     </section>
 
     <section class="container portafolio" id="portafolio">
-      <h3>Our Portfolio</h3>
-      <span>What do we do</span>
+      <h3 class="s-title">Our Portfolio</h3>
+      <span class="title">What do we do</span>
       <br /><br />
       <p>
         all projects that we have already done , proven can help to use more
@@ -122,27 +127,121 @@
       <p>comfortable, then can used by client from our business</p>
 
       <div class="gallery">
-        <div class="picture">
+        <figure class="picture">
           <img src="./assets/design-portafolio.png" alt="Design Mobile Image" />
-          <p>Design Byte App</p>
-        </div>
+          <figcaption>Design Byte App</figcaption>
+        </figure>
 
-        <div class="picture">
+        <figure class="picture">
           <img src="./assets/cloud-portafolio.png" alt="Cloud  Image" />
-          <p>Cloud App</p>
-        </div>
+          <figcaption>Cloud App</figcaption>
+        </figure>
 
-        <div class="picture">
+        <figure class="picture">
           <img
             src="./assets/furniture-portafolio.png"
             alt="Design Mobile Furniture App Image"
           />
-          <p>Design Furniture App</p>
-        </div>
+          <figcaption>Design Furniture App</figcaption>
+        </figure>
       </div>
 
-      <a href="#">See all Portafolio</a>
+      <a href="#" class="link hv-blue">See all Portafolio</a>
     </section>
+
+    <section class="container testimonial">
+      <h3 class="s-title">Testimonial</h3>
+      <span class="title">People Talk about us</span>
+
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="./assets/avatar.png" alt="Angel Rose" />
+            <div class="testimonial-profile">
+              <h4>Angel Rose</h4>
+              <span>Creative Manager</span>
+            </div>
+          </div>
+
+          <p>
+            There are many variations passages of Lorem Ipsum majority some by
+            words which don't look .
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="./assets/avatar.png" alt="Angel Rose" />
+            <div class="testimonial-profile">
+              <h4>Angel Rose</h4>
+              <span>Creative Manager</span>
+            </div>
+          </div>
+
+          <p>
+            There are many variations passages of Lorem Ipsum majority some by
+            words which don't look .
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="./assets/avatar.png" alt="Angel Rose" />
+            <div class="testimonial-profile">
+              <h4>Angel Rose</h4>
+              <span>Creative Manager</span>
+            </div>
+          </div>
+
+          <p>
+            There are many variations passages of Lorem Ipsum majority some by
+            words which don't look .
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-bg">
+      <footer class="container footer">
+        <div class="top">
+          <a href="#">
+            <img src="./assets/Agency-logo.png" alt="Agency Creative Logo" />
+          </a>
+
+          <div class="apart">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#" class="hv-link">Home</a></li>
+              <li><a href="#about" class="hv-link">About</a></li>
+              <li><a href="#services" class="hv-link">Services</a></li>
+              <li><a href="#projects" class="hv-link">Projects</a></li>
+            </ul>
+          </div>
+
+          <div class="apart">
+            <h4>Terms & policies</h4>
+            <ul>
+              <li><a href="#" class="hv-link">Terms of Service</a></li>
+              <li><a href="#" class="hv-link">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="apart">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:+62893912392190">(+62) 893912392190</a></li>
+              <li>
+                <a href="mailto:agecnycr@gmail.com">agecnycr@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bottom">
+          Copyright @ 2023 Agency Creative. All Right Reserved
+        </div>
+      </footer>
+    </div>
 
     <script src="index.js"></script>
   </body>

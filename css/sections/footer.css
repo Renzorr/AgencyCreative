@@ -1,0 +1,50 @@
+.footer-bg {
+  background-color: var(--black);
+  width: 100%;
+  color: var(--white);
+}
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  padding: 80px 40px;
+  margin-top: 240px;
+}
+
+.top {
+  display: grid;
+  justify-content: space-between;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 320px));
+  padding-block: 90px;
+}
+
+.footer img {
+  width: 177px;
+  padding: 13px 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.apart h4 {
+  margin-bottom: 18px;
+  font-size: 22px;
+}
+
+.apart ul {
+  display: grid;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.apart ul li a{
+  padding-bottom: 5px;
+}
+
+
+.bottom{
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid var(--white);
+    padding-top: var(--space-xl);
+    margin-top: var(--space-xl);
+}

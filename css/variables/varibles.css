@@ -1,14 +1,33 @@
 :root {
+  /* COLORS */
+  --white-bone: #f5f5f5;
   --white: #fff;
   --black: #1d1d1d;
   --gray: #464646;
   --blue: #377dff;
-  --radius: 25px;
-  --transition: 0.3s;
-  --transition-slow: 0.7s;
+
+  /* FONTS */
+  --font-2xl: clamp(40px, 4cqw, 64px);
+  --font-xl: clamp(35px, 4cqw, 55px);
+  --font-lg: clamp(20px, 4cqw, 24px);
+  --font-md: clamp(17px, 4cqw, 20px);
+  --font-sm: clamp(16px, 4cqw, 18px);
+  --font-xsm: clamp(12px, 4cqw, 16px);
+
+  /* PADDING */
   --space-xl: 50px;
   --space-2xl: 100px;
   --space-3xl: 130px;
-  --p-button: 14px 45px;
+  --p-button: 14px 38px;
+
+  /* BORDER RADIUS */
+  --radius: 25px;
+
+  /* TRANSITION */
+  --transition: 0.3s;
+  --transition-slow: 0.7s;
+
+  /* SHADOW */
   --shadow: 0 8px 15px rgb(55, 125, 255, 0.4);
+  --shadow-card: 0 8px 30px rgb(0, 0, 0, 8%);
 }

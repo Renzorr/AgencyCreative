@@ -1,6 +1,23 @@
 .testimonial {
+  position: relative;
   margin-top: var(--space-3xl);
   text-align: center;
+}
+
+.shape-top,
+.shape-bottom {
+  width: 98px;
+  position: absolute;
+}
+
+.shape-top {
+  top: -15px;
+  left: 140px;
+}
+
+.shape-bottom {
+  bottom: 0;
+  right: 0;
 }
 
 .testimonial-container {
@@ -51,4 +68,11 @@
   color: var(--gray);
   font-size: var(--font-sm);
   text-align: initial;
+}
+
+@media (width < 1295px) {
+  .shape-bottom,
+  .shape-top {
+    display: none;
+  }
 }

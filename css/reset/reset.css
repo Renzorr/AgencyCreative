@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=Quicksand:wght@400;700&display=swap");
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: inherit;
 }
 
 html {
@@ -33,7 +36,7 @@ svg {
   display: block;
 }
 
-h1 {
+.sr-only {
   position: absolute;
   width: 0;
   height: 0;
